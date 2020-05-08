@@ -1,5 +1,5 @@
 {
-  "name": "y",
+  "name": "Secrets",
   "version": "1.0.0",
   "description": "Best practice on how to encrypt important information like API keys and Passwords.",
   "main": "app.js",
@@ -15,9 +15,13 @@
     "dotenv": "^8.2.0",
     "ejs": "^3.1.2",
     "express": "^4.17.1",
+    "express-session": "^1.17.1",
     "md5": "^2.2.1",
     "mongoose": "^5.9.12",
-    "mongoose-encryption": "^2.0.2"
+    "mongoose-encryption": "^2.0.2",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^6.0.1"
   },
   "devDependencies": {},
   "repository": {
